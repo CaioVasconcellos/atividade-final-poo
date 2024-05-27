@@ -4,7 +4,7 @@ import faculdade.dominio.Pessoa;
 
 public abstract class Aluno extends Pessoa {
 
-    int matricula;
+    private int matricula;
 
     public Aluno(String cpf, String nome, int idade, int matricula) {
         super(cpf, nome, idade);

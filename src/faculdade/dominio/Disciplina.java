@@ -1,9 +1,9 @@
 package faculdade.dominio;
 
 public class Disciplina {
-    int codigo;
-    String nome;
-    int semestre;
+    private int codigo;
+    private String nome;
+    private int semestre;
 
     public Disciplina(int codigo, String nome, int semestre) {
         this.codigo = codigo;

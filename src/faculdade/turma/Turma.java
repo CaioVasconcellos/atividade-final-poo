@@ -9,9 +9,9 @@ import java.util.List;
 
 public class Turma {
     int codigo;
-    Disciplina disciplina;
-    Professor professor;
-    List<Aluno> alunosList;
+    private Disciplina disciplina;
+    private Professor professor;
+    private List<Aluno> alunosList;
 
 
     public Turma(int codigo, Disciplina disciplina, Professor professor) {

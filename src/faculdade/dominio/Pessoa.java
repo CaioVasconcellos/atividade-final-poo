@@ -2,9 +2,9 @@ package faculdade.dominio;
 
 public abstract class Pessoa {
 
-    String cpf;
-    String nome;
-    int idade;
+    private String cpf;
+    private String nome;
+    private int idade;
 
     public Pessoa(String cpf, String nome, int idade) {
         this.cpf = cpf;
