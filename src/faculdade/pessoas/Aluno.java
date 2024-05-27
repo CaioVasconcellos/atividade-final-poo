@@ -11,6 +11,7 @@ public abstract class Aluno extends Pessoa {
         this.matricula = matricula;
 
     }
+
     public abstract void pagarMensalidade();
 
     public String toString() {

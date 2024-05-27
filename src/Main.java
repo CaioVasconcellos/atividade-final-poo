@@ -11,9 +11,9 @@ public class Main {
         Disciplina d2 = new Disciplina(2, "Lógica de Programação", 1);
         Disciplina d3 = new Disciplina(3, "Java", 1);
 
-        Aluno aluno1 = new Regular("2224241","Joao", 22,20241 );
-        Aluno aluno2 = new Regular("2225251","Pedro", 23,20242 );
-        Aluno aluno3 = new Bolsista("2226261","Julia", 24,20243 );
+        Aluno aluno1 = new Regular("2224241", "Joao", 22, 20241);
+        Aluno aluno2 = new Regular("2225251", "Pedro", 23, 20242);
+        Aluno aluno3 = new Bolsista("2226261", "Julia", 24, 20243);
 
         Professor professor = new Professor("2227271", "Maria", 42, "Unifor");
 
@@ -39,5 +39,5 @@ public class Main {
         System.out.println(turma3);
 
 
-        }
     }
+}

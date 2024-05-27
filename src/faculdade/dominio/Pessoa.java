@@ -12,7 +12,7 @@ public abstract class Pessoa {
         this.idade = idade;
     }
 
-    public void fazerAniversario(){
+    public void fazerAniversario() {
         int i = getIdade() + 1;
         setIdade(i);
     }
